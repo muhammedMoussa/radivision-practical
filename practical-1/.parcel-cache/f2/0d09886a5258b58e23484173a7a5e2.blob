@@ -1,1 +1,0 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Reverses</title></head><body> <main> <input type="text"> <button class="reverse">Reverse</button> <button class="reset">Reset</button> <p></p> </main> <script src="/reverse.7bac4b39.e9ca4e9e.js"></script> </body></html>
