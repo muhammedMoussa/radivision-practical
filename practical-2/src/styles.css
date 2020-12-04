@@ -1,5 +1,5 @@
 .outer__circle {
-    background: #385a94;
+    background: gray;
     border-radius: 50%;
     height: 500px;
     width: 500px;
@@ -33,4 +33,60 @@
 
 .pointer {
     cursor: pointer;
+}
+
+.click__action {
+    background: #087aec;
+    height: 350px;
+    width: 350px;
+    margin: -175px 0px 0px -175px;
+}
+
+button {
+    width: 100px;
+    top: 15px;
+    right: 50%;
+    left: 45%;
+    position: absolute;
+}
+
+.rotateOut {
+    -webkit-animation-name: rotateOut;
+    animation-name: rotateOut;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes rotateOut {
+    0% {
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: rotate3d(0, 0, 1, 200deg);
+        transform: rotate3d(0, 0, 1, 200deg);
+        opacity: 0;
+    }
+}
+
+@keyframes rotateOut {
+    0% {
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: rotate3d(0, 0, 1, 200deg);
+        transform: rotate3d(0, 0, 1, 200deg);
+        opacity: 0;
+    }
 }
