@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverses</title>
+</head>
+<body>
+    <main>
+        <input type="text">
+        <button class="reverse">Reverse</button>
+        <button class="reset">Reset</button>
+        <p></p>
+    </main>
+    <script src="d4cb0817c91fd6ce58639deb44f76f8e"></script>
+</body>
+</html>
