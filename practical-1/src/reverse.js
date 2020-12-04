@@ -1,4 +1,7 @@
-const reverseBtn  = document.querySelector('.reverse');
-reverseBtn.addEventListener('click', () => {
-    alert('reverse')
-})
+function reverseHandler(sentence) {
+    const res = sentence.split(' ').reverse().join(' ');
+    return res;
+}
+
+module.exports = reverseHandler;
+
