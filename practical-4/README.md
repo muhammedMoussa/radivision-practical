@@ -1,0 +1,39 @@
+# flix user stories:
+  - **User Registration**.
+    - registration page that enable user to signup and use the product.
+  - **User Login**.
+    - login page that enable user to login into the product.
+  - **FAQ Section**.
+    - answers to specific questions about product or business operation.
+  - **Footer**.integration
+    - add footer with links to contact, about, support...
+  - **Payment Integration**.
+    - deal with payment provider.
+    
+# flix Features:
+  - **User Registration**.
+        - ui form: 4 hrs.
+        - ui validation: 1 hr.
+        - api integration: 1hr.
+        - unit test: 2hrs.
+        - smoke test and QA test cases cover: 1hr.
+  - **User Login**.
+        - ui form: 2 hrs.
+        - ui validation: 1 hr.
+        - api integration: 1hr.
+        - unit test: 1hr.
+        - smoke test and QA test cases cover: 1hr.
+  - **FAQ Section**.
+        - ui: 3 hrs.
+        - dynamic contet config: 1 hr.
+        - smoke test and QA test cases cover: 1hr.
+  - **FAQ Section**.
+        - ui: 4 hrs.
+        - dynamic contet config: 2 hr.
+        - smoke test and QA test cases cover: 1hr.
+  - **Payment Integration**.
+        - research for business ideal provider: 2hrs.
+        - ui forms: 4 hrs.
+        - backend integration: 2hr.
+        - unit test: 2hr.
+        - smoke test and QA test cases cover: 2hr.
